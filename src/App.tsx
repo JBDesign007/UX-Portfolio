@@ -9,7 +9,7 @@ import { PasswordProtection } from './components/PasswordProtection';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/UX-Portfolio">
       <div className="min-h-screen bg-white">
         <Navigation />
         <Routes>
